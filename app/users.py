@@ -1,7 +1,6 @@
 import sqlite3
 import pandas as pd
-
-conn = sqlite3.connect("my_database.db")
+import hashlib
 
 def create_users_table(conn):
     curr = conn.cursor()
