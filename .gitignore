@@ -1,0 +1,9 @@
+# Python example
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+user.txt
+DATA/
+.venv/
